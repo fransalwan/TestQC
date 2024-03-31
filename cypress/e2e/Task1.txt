@@ -1,0 +1,31 @@
+Test Scenarios:
+1. Create Reservation Successfully:
+- User navigates to the module reservation.
+- User clicks on the button to create a new reservation.
+- User fills out the reservation form with valid data.
+- User submits the form.
+- Verify that the reservation is successfully created.
+
+Failure Scenarios:
+1. Login Failure:
+- User logs in with invalid credentials.
+- Verify that the login fails and an appropriate error message is displayed.
+
+2. Failed Navigation to Reservation Module:
+- After logging in, user navigates to a different module instead of the reservation module.
+- Verify that the navigation fails and the user remains on the same page.
+
+3. Failed Reservation Creation - Missing Data:
+- User logs in with valid credentials.
+- User navigates to the module reservation.
+- User clicks on the button to create a new reservation.
+- User submits the form without filling out all required fields.
+- Verify that the reservation creation fails and appropriate error messages are displayed for missing data.
+
+4. Failed Reservation Creation - Invalid Data:
+- User logs in with valid credentials.
+- User navigates to the module reservation.
+- User clicks on the button to create a new reservation.
+- User fills out the reservation form with invalid data.
+- User submits the form.
+- Verify that the reservation creation fails and appropriate error messages are displayed for invalid data.
